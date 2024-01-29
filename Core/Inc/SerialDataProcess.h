@@ -1,0 +1,8 @@
+//
+// Created by zhu on 2024/1/29.
+//
+
+#ifndef H750_CJSON_SERIALDATAPROCESS_H
+#define H750_CJSON_SERIALDATAPROCESS_H
+void SerialDataProcess();
+#endif //H750_CJSON_SERIALDATAPROCESS_H

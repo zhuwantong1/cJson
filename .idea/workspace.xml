@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="H750_CJSON" targetName="H750_CJSON.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95f61bdd-cab5-46fc-8e2d-162d6bceffdc" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1121" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2bbnz1CSIanAtOkE69ZDKoVBtNN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/Desktop/COMS_S15909_ADC-master/coms_s15909_adc/R_PINGCHANG/S15909_H750.ioc",
+    "nodejs.protractor.protractor_package": ""
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\cubecode\H750_CJSON\Core\Inc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.H750_CJSON.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H750_CJSON.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="H750_CJSON" TARGET_NAME="H750_CJSON.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="H750_CJSON" RUN_TARGET_NAME="H750_CJSON.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="未命名" type="JavaScriptTestRunnerProtractor" nameIsGenerated="true">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <protractor-package value="" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="H750_CJSON.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="H750_CJSON" TARGET_NAME="H750_CJSON.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="H750_CJSON" RUN_TARGET_NAME="H750_CJSON.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\cubecode\config\cmsis_dap.cfg" reset-type="INIT" download-type="ALWAYS">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.H750_CJSON.elf" />
+      <item itemvalue="OpenOCD 下载并运行.H750_CJSON.elf" />
+      <item itemvalue="Protractor.未命名" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="95f61bdd-cab5-46fc-8e2d-162d6bceffdc" name="变更" comment="" />
+      <created>1706492904795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706492904795</updated>
+      <workItem from="1706492946668" duration="18120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="g_usart_rx_sta" />
+        <watch expression="g_usart_rx_sta" language="ObjectiveC" />
+        <watch expression="g_usart_rx_buf" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
