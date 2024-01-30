@@ -73,7 +73,7 @@ static void MPU_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-    uint8_t len;
+    int age;
 
   /* USER CODE END 1 */
 
@@ -108,7 +108,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart1);
 
-    int value;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -118,10 +118,13 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    struct paramstruct *paramstruct;
+    paramstruct = GetParametesptr();
+    paramstruct->age=20;
 
-
-      SerialDataProcess();
-
+    SerialDataProcess();
+    age= Change_Age();
+    printf("Age is %d\r\n",age);
 //      printf("Hello World\r\n");
   }
   /* USER CODE END 3 */

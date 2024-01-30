@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include "cJSON_Test.h"
+struct paramstruct Parameters;
 
 void cjson(uint8_t g_usart_json_string[])
 {
@@ -14,14 +15,19 @@ void cjson(uint8_t g_usart_json_string[])
         cJSON *city = cJSON_GetObjectItem(json, "city");
         cJSON *waihao = cJSON_GetObjectItem(json, "waihao");
         if (name != NULL && age != NULL && city != NULL&& waihao != NULL) {
-    // 打印解析结果
-        printf("Name: %s\n", name->valuestring);
-        printf("Age: %d\n", age->valueint);
-        printf("City: %s\n", city->valuestring);
-        // 解析嵌套的对象
-        printf("Waihao:\n");
-        parseNestedObject(waihao);
+            // 打印解析结果
+            printf("Name: %s\n", name->valuestring);
+            printf("Age:  %d\n", age ->valueint);
+            printf("City: %s\n", city->valuestring);
+            // 解析嵌套的对象
+            printf("Waihao:\n");
+            parseNestedObject(waihao);
+            Parameters.age= age->valueint;
+            Parameters.height=age->valueint;
         }
+
+
+
 
 // 释放 cJSON 对象
         cJSON_Delete(json);
@@ -39,4 +45,9 @@ void parseNestedObject(cJSON *nestedObject) {
         printf("  waihao1: %s\n", waihao1->valuestring);
         printf("  waihao2: %s\n", waihao2->valuestring);
     }
+}
+
+struct paramstruct *GetParametesptr()
+{
+    return &Parameters;
 }
