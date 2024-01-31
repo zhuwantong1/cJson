@@ -34,6 +34,8 @@ extern "C" {
 
 extern UART_HandleTypeDef huart1;
 
+extern UART_HandleTypeDef huart3;
+
 /* USER CODE BEGIN Private defines */
 #define USART_REC_LEN               200                                             /* 定义�??大接�??200字节数据 */
 #define USART_EN_RX                 1                                               /* 使能串口接收 */
@@ -42,6 +44,7 @@ extern UART_HandleTypeDef huart1;
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);
+void MX_USART3_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 extern uint8_t  g_usart_rx_buf[USART_REC_LEN];                                      /* 串口缓冲�?? */
