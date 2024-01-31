@@ -31,9 +31,7 @@
 #include <stdbool.h>
 #include "stdlib.h"
 #include "Store_Information.h"
-#include "string.h"
-#include "Get_Parameters.h"
-#include "Control_Adjustment.h"
+#include "Judge.h"
 
 /* USER CODE END Includes */
 
@@ -66,7 +64,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+bool Printf_Flag = true;
 /* USER CODE END 0 */
 
 /**
@@ -120,31 +118,14 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     SerialDataProcess();
-    struct paramstruct *ParamStructPtr;
-    ParamStructPtr = GetParametesptr();
+    if(Printf_Flag== true){
+        Judge();
+        Printf_Flag = false;
+    }
+
 //    paramstruct ->age = 20;
 
-      if(ParamStructPtr->pn == 1 ){
-          Printf_Pn_Number();
-      }
-      if(ParamStructPtr->sn == 1){
-          Printf_Sn_Number();
-      }
-      if(ParamStructPtr->production_date ==1){
-          Printf_Product_Time();
-      }
-      if(ParamStructPtr->manufacturer ==1){
-          Printf_Manufacturer();
-      }
-      if(ParamStructPtr->Device_Pixel_Length ==1){
-          Printf_Device_Pixel_Length();
-      }
-      if(ParamStructPtr->temperature==1){
-          printf("Temperature:%.1f\r\n",Get_Temperature());
-      }
-      if(ParamStructPtr->Set_Integration_Time!=0){
-          Control_St(ParamStructPtr->Set_Integration_Time);
-      }
+
        //free(ParamStructPtr);
 
 

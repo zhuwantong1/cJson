@@ -3,8 +3,10 @@
 #include "cJSON_Test.h"
 #include "string.h"
 #include "Store_Information.h"
+#include "stdlib.h"
+#include "stdbool.h"
 struct paramstruct Parameters;      //声明结构体对象
-
+extern  bool Printf_Flag ;
 void cjson(uint8_t g_usart_json_string[])
 {
     const char * json_string = g_usart_json_string;
@@ -43,12 +45,14 @@ void cjson(uint8_t g_usart_json_string[])
 
 
 
-
-// 释放 cJSON 对象
+        Printf_Flag= true;
+        // 释放 cJSON 对象
         cJSON_Delete(json);
     } else {
 // 处理解析错误
-        printf("JSON parsing error.\n");
+        printf("JSON parsing error JSON parsing error JSON parsing error JSON parsing error.\n");
+        Printf_Flag = false;
+
     }
 }
 

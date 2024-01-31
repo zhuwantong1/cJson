@@ -14,11 +14,11 @@ char Device_Pixel_Length[4];
 uint8_t  Set_Integration_Time = 1;
 
 void Printf_Pn_Number() {
-    strcpy(pn_number, "12345678901");
+    strcpy(pn_number, "IRIS_ZHU_01");
     printf("%s\n", pn_number);
 }
 void Printf_Sn_Number() {
-    strcpy(sn_number, "12345678");
+    strcpy(sn_number, "Sensor_1");
     printf("%s\n", sn_number);
 }
 void Printf_Product_Time() {

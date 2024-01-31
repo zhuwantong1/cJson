@@ -9,7 +9,7 @@
 #include "cJSON_Test.h"
 #include "SerialDataProcess.h"
 
-
+extern  bool Printf_Flag ;
 void SerialDataProcess()
 {
     uint8_t len;
@@ -22,6 +22,9 @@ void SerialDataProcess()
         cjson(g_usart_rx_buf);
         g_usart_rx_sta = 0;
         memset(g_usart_rx_buf, 0, sizeof(g_usart_rx_buf));
+    }else
+    {
+        Printf_Flag = false;
     }
 
 

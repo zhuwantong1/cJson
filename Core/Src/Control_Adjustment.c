@@ -7,5 +7,5 @@
 void Control_St(uint8_t st_time){
     int st= 0;
     st = st_time;
-    printf("st = %d\n",st);
+    printf("St = %d\n",st);
 }
