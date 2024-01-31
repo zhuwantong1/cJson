@@ -117,12 +117,18 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
     SerialDataProcess();
     if(Printf_Flag== true){
         Judge();
         Printf_Flag = false;
     }
 
+
+//uint8_t  p[2];
+//p[0] = 0x55;
+//p[1] = 0xaa;
+// HAL_UART_Transmit(&huart3, p, 2, 10);
 //    paramstruct ->age = 20;
 
 

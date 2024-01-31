@@ -14,19 +14,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95f61bdd-cab5-46fc-8e2d-162d6bceffdc" name="变更" comment="温度，pn，sn，生产时间和厂家，积分时间，像素长度等变量">
-      <change afterPath="$PROJECT_DIR$/Core/Inc/Judge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/Judge.c" afterDir="false" />
+    <list default="true" id="95f61bdd-cab5-46fc-8e2d-162d6bceffdc" name="变更" comment="可以用任工的通信协议进行解析">
+      <change afterPath="$PROJECT_DIR$/Core/Inc/Communication_Protocol.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/Communication_struct.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Communication_Protocol.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Control_Adjustment.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Control_Adjustment.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/SerialDataProcess.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/SerialDataProcess.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/Store_Information.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Store_Information.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/cJSON_Test.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/cJSON_Test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H750_CJSON.elf.dir/Core/Src/SerialDataProcess.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H750_CJSON.elf.dir/Core/Src/SerialDataProcess.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H750_CJSON.elf.dir/Core/Src/cJSON_Test.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H750_CJSON.elf.dir/Core/Src/cJSON_Test.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H750_CJSON.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H750_CJSON.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/H750_CJSON.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/H750_CJSON.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/H750_CJSON.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/H750_CJSON.elf" afterDir="false" />
@@ -142,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706492904795</updated>
       <workItem from="1706492946668" duration="26789000" />
-      <workItem from="1706666368287" duration="15110000" />
+      <workItem from="1706666368287" duration="21780000" />
     </task>
     <task id="LOCAL-00001" summary="跨文件使用变量">
       <created>1706608250177</created>
@@ -158,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706685443573</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="各类信息只显示一次，错误不显示">
+      <created>1706687554791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706687554791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,14 +182,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="跨文件使用变量" />
     <MESSAGE value="温度，pn，sn，生产时间和厂家，积分时间，像素长度等变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="温度，pn，sn，生产时间和厂家，积分时间，像素长度等变量" />
+    <MESSAGE value="各类信息只显示一次，错误不显示" />
+    <MESSAGE value="可以用任工的通信协议进行解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="可以用任工的通信协议进行解析" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/Communication_Protocol.c</url>
+          <line>168</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
         <watch expression="g_usart_rx_sta" />
         <watch expression="g_usart_rx_sta" language="ObjectiveC" />
         <watch expression="g_usart_rx_buf" language="ObjectiveC" />
+        <watch expression="g_usart_rx_sta" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
